@@ -25,12 +25,36 @@ body {
     background-size: cover;
 }
 
+       /* GO TOP BUTTON */
 
-.textmain {
-    height: 1100px;
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right:30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #000;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+            /* ABOUT */
+
+#about {
+    height: 740px;
     background-color: rgb(0, 0, 0);
 
 }
+
+        /* ABOUT FONT */
 
 @font-face {
     font-family: aboutmetitle;
@@ -42,23 +66,34 @@ body {
     padding-top: 150px;
     margin: 0;
     color: white;
-    margin-left:200px;
-    font-size: 100px;
+    margin-left:140px;
+    font-size: 80px;
     font-family: aboutmetitle;
     font-weight: lighter;
     line-height: 90px;
+}
 
-    
+.aboutmesubtitle {
+    line-height: 70px;
+    font-family: aboutmetitle;
+    font-weight: lighter;
+    margin: 0;
+    color: white;
+    margin-left: 140px;
+    font-size: 100px;
+
 }
 
 
 .aboutmetext {
     color: white;
     padding-top: 100px;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-right: 600px;
     font-size: 20px;
 }
+
+            /* NAVBAR  */
 .nav  {
    overflow: hidden;
    background-color: transparent;
@@ -66,8 +101,9 @@ body {
 }
 
 .nav a {
-    margin-right: 70px;
-    margin-top: 35px ;
+    margin-right: 40px;
+    margin-top: 35px;
+    margin-left:10px;
     float: right;
     color: white;
     text-align: center;
