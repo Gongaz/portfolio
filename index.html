@@ -12,29 +12,31 @@
     
 </header>
 <body>
+  <!-- Navigation Bar -->  
 <div class="nav">
     <div class="menulogo"><img src="menulogo.png"></div>
 <div class="menu">
         <a onclick="" href="">CONTACTS</a>
         <a href="">CURRICULUM</a>
         <a href="">SKILLS</a>
-        <a onclick="ScrollWin()" id="aboutbtn" href="">ABOUT</a>
+        <a href="#about">ABOUT</a>
     </ul>
-
-    <script>
-    function ScrollWin() {
-        window.scrollTo(0, 1000);
-    }
-    </script>
-
 
 </div>
 
 <div class="parallax"></div>
 
+<!-- GO TO TOP BUTTON -->
 
-<div class="textmain">
-    <h1 class="aboutmetitle"> Hello,<br class="Aboutmename"> I´m Gonçalo</br></h1>
+<script src="script.js"></script>
+
+<button onclick="topFunction()" id="myBtn" title="Go Top"> &#8592; GO TOP</button>
+
+<!-- ABOUT -->
+
+<div id="about">"textmain">
+    <h1 class="aboutmetitle"> Hello,</h1>
+    <h2 class="aboutmesubtitle"> I´m Gonçalo</h2>
     <p class="aboutmetext">Enthusiastic to learn how to do a little bit of everything.<br>
         Nowadays I’ve been practicing and learning some <br>
         programming (Front-End) Javascript  HTML, CSS and Javascript,<br>
@@ -43,6 +45,8 @@
         
         I love took photos and edite and create visual Products like flyers.</p>
 </div>
+
+
     
 </body>
 </html>
