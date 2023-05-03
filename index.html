@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="x-icon" href="">
+    <script src="scrollload.js"></script>
     <title> GONÇALO INÁCIO - PORTFOLIO</title>
 </head>  
 <header>
@@ -18,7 +19,7 @@
 <div class="menu">
         <a onclick="" href="">CONTACTS</a>
         <a href="">CURRICULUM</a>
-        <a href="">SKILLS</a>
+        <a href="#skills">SKILLS</a>
         <a href="#about">ABOUT</a>
     </ul>
 
@@ -26,14 +27,70 @@
 
 <div class="parallax"></div>
 
+
 <!-- GO TO TOP BUTTON -->
 
 
 
 <button onclick="topFunction()" id="myBtn" title="Go Top"> &#8592; GO TOP</button>
-    
-    <script src="script.js"></script>
 
+
+<!-- ABOUT -->
+
+<div id="about">
+    <div id="aboutxt">
+    <h1 class="aboutmetitle"> Hello,</h1>
+    <h2 class="aboutmesubtitle"> I´m Gonçalo</h2>
+    <p class="aboutmetext">Enthusiastic to learn how to do a little bit of everything.<br>
+        Nowadays I’ve been practicing and learning some <br>
+        programming (Front-End) Javascript  HTML, CSS and Javascript,<br>
+        trying to jump to React.js.<br>
+        <br>
+        
+        I love took photos and edite and create visual Products like flyers.</p>
+    
+        
+</div>
+
+
+
+<div id="skills">
+    <div id="skilltxt">
+    <h1 class="skillstitle"> Skills </h1>
+
+<p class="skillshtml" id="skillshtml">HTML</p>
+    <div class="container">
+    <div class="skills html" id="html"></div>
+    <p class="htmlprct">90%</p>  
+</div>
+
+<script src="fillbarhtml.js"></script>
+
+<p class="skillscss">CSS</p>
+    <div class="container">
+        <div class="skills css" id="css"></div>
+        <p class="cssprct">70%</p>
+    </div>
+
+
+<p class="skillsjs">JAVASCRIPT</p>
+    <div class="container">
+        <div class="skills js"></div>
+        <p class="jsprct">10%</p>
+    </div>
+</div>
+</div>
+</div>
+<footer>
+
+</footer>
+    
+
+
+
+    
+</body>
+</html>
 <!-- ABOUT -->
 
 <div id="about">"textmain">
